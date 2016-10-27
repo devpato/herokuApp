@@ -83,8 +83,8 @@ Rails.application.configure do
         port: 587,
         authentication: "plain",
         enable_starttls_auto: true,
-        user_name: "wearetamo@gmail.com",
-        password: "Policia92" 
+        user_name: ENV["wearetamo@gmail.com"],
+        password: ENV["Policia92"] 
 
     }
 end
